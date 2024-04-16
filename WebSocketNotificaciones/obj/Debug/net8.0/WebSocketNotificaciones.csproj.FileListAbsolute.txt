@@ -1,0 +1,14 @@
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\bin\Debug\net8.0\WebSocketNotificaciones.exe
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\bin\Debug\net8.0\WebSocketNotificaciones.deps.json
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\bin\Debug\net8.0\WebSocketNotificaciones.runtimeconfig.json
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\bin\Debug\net8.0\WebSocketNotificaciones.dll
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\bin\Debug\net8.0\WebSocketNotificaciones.pdb
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.AssemblyInfoInputs.cache
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.AssemblyInfo.cs
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.csproj.CoreCompileInputs.cache
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.dll
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\refint\WebSocketNotificaciones.dll
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.pdb
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\WebSocketNotificaciones.genruntimeconfig.cache
+C:\Users\alvar\source\repos\WebSocketNotificaciones\WebSocketNotificaciones\obj\Debug\net8.0\ref\WebSocketNotificaciones.dll

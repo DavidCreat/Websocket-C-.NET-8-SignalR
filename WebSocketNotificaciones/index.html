@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Notifications</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="nameInput" placeholder="Ingrese su nombre">
+        <button onclick="sendName()">Ingresar</button>
+    </div>
+    <div id="notifications">
+        <h3>Usuarios en el grupo:</h3>
+        <ul id="userList"></ul>
+    </div>
+
+    <script>
+        const webSocket = new WebSocket("ws://localhost:8080/");
+
+        webSocket.onopen = function(event) {
+            console.log("Conexión establecida con el servidor WebSocket");
+        };
+
+        webSocket.onmessage = function(event) {
+            const notificationsDiv = document.getElementById("notifications");
+            const userList = document.getElementById("userList");
+            userList.innerHTML = ""; // Limpiar lista antes de actualizarla
+
+            const users = JSON.parse(event.data);
+            users.forEach(user => {
+                const listItem = document.createElement("li");
+                listItem.textContent = user;
+                userList.appendChild(listItem);
+            });
+        };
+
+        webSocket.onerror = function(event) {
+            console.error("Error en la conexión WebSocket");
+        };
+
+        function sendName() {
+            const nameInput = document.getElementById("nameInput");
+            const name = nameInput.value.trim();
+            if (name !== "") {
+                webSocket.send(name);
+                nameInput.value = ""; // Limpiar el campo de entrada después de enviar el nombre
+            }
+        }
+    </script>
+</body>
+
+</html>
